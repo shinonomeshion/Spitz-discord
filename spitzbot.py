@@ -21,7 +21,14 @@ async def on_message(message):
             with open('14banmenotuki.txt') as banmenotuki:
                 kasi_14banmenotuki = banmenotuki.read()
             await message.channel.send(kasi_14banmenotuki)
-        
+        if '1987' in message.content or '１９８７' in message.content:
+            with open('1987.txt') as itikyuuhatinana:
+                kasi_1987 = itikyuuhatinana.read()
+            await message.channel.send(kasi_1987)
+        if '8823' in message.content or '８８２３' in message.content:
+            with open('8823.txt') as hayabusa:
+                kasi_8823 = hayabusa.read()
+            await message.channel.send(kasi_8823)
             
 
 
