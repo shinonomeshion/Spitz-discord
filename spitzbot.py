@@ -17,5 +17,12 @@ async def on_message(message):
             with open('12gatunoamenohi.txt') as gatunoamenohi:
                 kasi_12gatunoamenohi = gatunoamenohi.read()
             await message.channel.send(kasi_12gatunoamenohi)
+        if '14番目の月' in message.content or '１４番目の月' in message.content:
+            with open('14banmenotuki.txt') as banmenotuki:
+                kasi_14banmenotuki = banmenotuki.read()
+            await message.channel.send(kasi_14banmenotuki)
+        
+            
+
 
 client.run(token)
