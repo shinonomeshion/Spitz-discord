@@ -12,7 +12,7 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
-    if '#spitz' in message.content:
+    if '#spitz' in message.content or '#Spitz' in message.content:
         if '12月の雨の日' in message.content or '１２月の雨の日' in message.content:
             with open('12gatunoamenohi.txt') as gatunoamenohi:
                 kasi_12gatunoamenohi = gatunoamenohi.read()
