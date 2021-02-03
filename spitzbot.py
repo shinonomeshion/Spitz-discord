@@ -145,6 +145,14 @@ async def on_message(message):
             with open('buti.txt') as buti:
                 kasi_buti = buti.txt
             await message.channel.send(kasi_buti)
+        if 'どんどどん' in message.content:
+            with open('dondodon.txt') as dondodon:
+                kasi_dondodon = dondodon.read()
+            await message.channel.send(kasi_dondodon)
+        if 'ドルフィン・ラヴ' in message.content:
+            with open('dorufinravu.txt') as dorufinravu:
+                kasi_dorufinravu = dorufinravu.read()
+            await message.channel.send(kasi_dorufinravu)
            
                                        
                                                     
