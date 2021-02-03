@@ -45,7 +45,54 @@ async def on_message(message):
             with open('akane.txt') as akane:
                 kasi_akane = akane.read()
             await message.channel.send(kasi_akane)
+        if 'あかりちゃん' in message.content:
+            with open('akarityan.txt') as akarityan:
+                kasi_akarityan = akarityan.read()
+            await message.channel.send(kasi_akarityan)
+        if 'あかさたな' in message.content:
+            with open('akasatana.txt') as akasatana:
+                kasi_akasatana = akasatana.read()
+            await message.channel.send(kasi_akasatana)
+        if '悪役' in message.content:
+            with open('akuyaku.txt') as akuyaku:
+                kasi_akuyaku = akuyaku.read()
+            await message.channel.send(kasi_akasatana)
+        if '甘い手' in message.content:
+            with open('amaite.txt') as amaite:
+                kasi_amaite = amaite.read()
+            await message.channel.send(kasi_amaite)
+        if '甘ったれクリーチャー' in message.content:
+            with open('amattarekuri-tya-.txt') as amattarekuritya:
+                kasi_amattarekuritya = amattarekuritya.read()
+            await message.channel.send(kasi_amattarekuritya)
+        if '青い車' in message.content:
+            with open('aoikuruma.txt') as aoikuruma:
+                kasi_aoikuruma = aoikuruma.read()
+            await message.channel.send(kasi_aoikuruma)
+        if 'アパート' in message.content:
+            with open('apa-to.txt') as apato:
+                kasi_apato = apato.read()
+            await message.channel.send(kasi_apato)
+        if 'ありがとさん' in message.content:
+            with open('arigatosan.txt') as arigatosan:
+                kasi_arigatosan = arigatosan.read()
+            await message.channel.send(kasi_arigatosan)
+        if 'ありふれた人生' in message.content:
+            with open('arihuretazinsei.txt') as arihuretazinsei:
+                kasi_arihuretazinsei - arihuretazinsei.read()
+            await message.channel.send(kasi_arihuretazinsei)
+        if '歩き出せ、クローバー' in message.content:
+            with open('arukidasekuro-ba-.txt') as arukidasekuroba:
+                kasi_arukidasekuroba = arukidasekuroba.read()
+            await message.channel.send(kasi_arukidasekuroba)
+        if 'あわ' in message.content:
+            with open('awa.txt') as awa:
+                kasi_awa = awa.read()
+            await message.channel.send(kasi_awa)
+        if 'あじさい通り' in message.content:
+            with open('azisaidoori.txt') as azisaidoori:
+                kasi_azisaidoori = azisaidoori.read()
+            await message.channel.send(kasi_azisaidoori)
+                                                    
             
-
-
 client.run(token)
