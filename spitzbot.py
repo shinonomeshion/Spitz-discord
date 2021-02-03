@@ -297,13 +297,125 @@ async def on_message(message):
             with open('honoho.txt') as honoho:
                 kasi_honoho = honoho.read()
             await message.channel.send(kasi_honoho)
-            
-            
-                      
-                    
-            
-           
-                                       
-                                                    
-            
+        if '惑星のかけら' in message.content:
+            with open('hosinokakera') as hosinokakera:
+                kasi_hosinokakera = hosinokakera.read()
+            await message.channel.send(kasi_hosinokakera)
+        if 'ホタル' in message.content:
+            with open('hotaru.txt') as hotaru:
+                kasi_hotaru = hotaru.read()
+            await message.channel.send(kasi_hotaru)
+        if 'ほうき星' in message.content:
+            with open('houkibosi.txt') as houkibosi:
+                kasi_houkibosi = houkibosi.read()
+            await message.channel.send(kasi_houkibosi)
+        if '放浪カモメはどこまでも' in message.content:
+            with open('houroukamomehadokomademo.txt') as houroukamomehadokomademo:
+                kasi_houroukamomehadokomademo = houroukamomehadokomademo.read()
+            await message.channel.send(kasi_houroukamomehadokomademo)
+        if '船乗り' in message.content:
+            with open('hunanori.txt') as hunanori:
+                kasi_hunanori = hunanori.read()
+            await message.channel.send(kasi_hunanori)
+        if '不思議' in message.content:
+            with open('husigi') as husigi:
+                kasi_husigi = husigi.read()
+            await message.channel.send(kasi_husigi)
+        if '不死身のビーナス' in message.content:
+            with open('huziminobi-nasu.txt') as huziminobinasu:
+                kasi_huziminobinasu = huziminobinasu.read()
+            await message.channel.send(kasi_huziminobinasu)
+        if '今' in message.content:
+            with open('ima.txt') as ima:
+                kasi_ima = ima.read()
+            await message.channel.send(kasi_ima)
+        if '田舎の生活' in message.content:
+            with open('inakanoseikatu.txt') as inakanoseikatu:
+                kasi_inakanoseikatu = inakanoseikatu.read()
+            await message.channel.send(kasi_inakanoseikatu)
+        if 'インディゴ地平線' in messege.content:
+            with open('indexigotiheisne.txt') as indexigotiheisen:
+                kasi_indexigotiheisen = indexigotiheisen.read()
+            await message.channel.send(kasi_indexigotiheisen)
+        if 'いろは' in message.content:
+            with open('iroha.txt') as iroha:
+                kasi_iroha = iroha.txt
+            await message.channel.send(kasi_iroha)
+        if '楓' in message.content:
+            with open('kaede') as kaede:
+                kasi_kaede = kaede.read()
+            await message.channel.send(kasi_kaede)
+        if '快速' in message.content:
+            with open('kaisoku.txt') as kaisoku:
+                kasi_kaisoku = kaisoku.read()
+            await message.channel.send(kasi_kaisoku)
+        if 'けもの道' in message.content:
+            with open('kemonomiti.txt') as kemonomiti:
+                kasi_kemonomiti = kemonomiti.read()
+            await message.channel.send(kasi_kemonomiti)
+        if '聞かせてよ' in message.content:
+            with open('kikaseteyo.txt') as kikaseteyo:
+                kasi_kikaseteyo = kikaseteyo.read()
+            await message.channel.send(kasi_kikaseteyo)
+        if '君だけを' in message.content:
+            with open('kimidakewo.txt') as kimidakewo:
+                kasi_kimidakewo = kimidakewo.read()
+            await message.channel.send(kasi_kimidakewo)
+        if '君が思い出になる前に' in message.content:
+            with open('kimigaomoideninarumaeni.txt') as kimigaomoideninarumaeni:
+                kasi_kimigaomoideninarumaeni = kimigaomoideninarumaeni.read()
+            await message.channel.send(kasi_kimigaomoideninarumaeni)
+        if '君は太陽' in message.content:
+            with open('kimihataiyou.txt') as kimihataiyou:
+                kasi_kimihataiyou = kimihataiyou.read()
+            await message.channel.send(kasi_kimihataiyou)
+        if '君と暮らせたら' in message.content:
+            with open('kimitokurasetara') as kimitokurasetara:
+                kasi_kimitokurasetara = kimitokurasetara.read()
+            await message.channel.send(kasi_kimitokurasetara)
+        if '子グマ！子グマ！' in message.content:
+            with open('kogumakoguma.txt') as kogumakoguma:
+                kasi_kogumakoguma = kogumakoguma.read()
+            await message.channel.send(kasi_kogumakoguma)
+        if '恋は夕暮れ' in message.content:
+            with open('koihayuugure.txt') as koihayuugure:
+                kasi_koihayuugure = koihayuugure.read()
+            await message.channel.send(kasi_koihayuugure)
+        if '恋のはじまり' in message.content:
+            with open('koinohazimari.txt') as koinohazimari:
+                kasi_koinohazimari = koinohazimari.read()
+            await message.channel.send(kasi_koinohazimari)
+        if '恋のうた' in message.content:
+            with open('koinouta.txt') as koinouta:
+                kasi_koinouta = koinouta.read()
+            await message.channel.send(kasi_koinouta)
+        if '恋する凡人' in message.content:
+            with open('koisurubonzin.txt') as koisurubonzin:
+                kasi_koisurubonzin = koisurubonzin.read()
+            await message.channel.send(kasi_koisurubonzin)
+        if '心の底から' in message.content:
+            with open('kokoronosokokara.txt') as kokoronosokokara:
+                kasi_kokoronosokokara = kokoronosokokara.read()
+            await message.channel.send(kasi_kokoronosokokara)
+        if 'コメット' in message.content:
+            with open('kometto.txt') as kometto:
+                kasi_kometto = kometto.read()
+            await message.channel.send(kasi_kometto)
+        if 'こんにちは' in message.content:
+            with open('konnitiha.txt') as konnitiha:
+                kasi_konnitiha = konnitiha.read()
+            await message.channel.send(kasi_konnitiha)
+        if 'コスモス' in message.content:
+            with open('kosumusu.txt') as kosumosu:
+                kasi_kosumosu = kosumosu.read()
+            await message.channel.send(kasi_kosumosu)
+        if 'クリスピー' in message.content:
+            with open('kurisupi-.txt') as kurisupi:
+                kasi_kurisupi = kurisupi.read()
+            await message.channel.send(kasi_kurisupi)
+        if '黒い翼' in message.content:
+            with open('kuroitubasa.txt') as kuroitubasa:
+                kasi_kuroitubasa = kuroitubasa.read()
+            await message.channel.send(kasi_kuroitubasa)
+
 client.run(token)
