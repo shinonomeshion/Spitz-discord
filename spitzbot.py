@@ -42,7 +42,9 @@ async def on_message(message):
                 kasi_ainokotoba = ainokotoba.read()
             await message.channel.send(kasi_ainokotoba)
         if '愛のしるし' in message.content:
-            with open
+            with open('ainosirusi.txt') as ainosirusi:
+                kasi_ainosirusi = ainosirusi.read()
+            await message.channel.send(kasi_ainosirusi)
         if 'アカネ' in message.content:
             with open('akane.txt') as akane:
                 kasi_akane = akane.read()
