@@ -201,7 +201,106 @@ async def on_message(message):
             with open('guri-n.txt') as gurin:
                 kasi_gurin = gurin.read()
             await message.channel.send(kasi_gurin)
+        if 'ハートが帰らない' in message.content:
+            with open('ha-togakaeranai.txt') as hatogakaeranai:
+                kasi_hatogakaeranai = hatogakaeranai.read()
+            await message.channel.send(kasi_hatogakaeranai)
+        if '裸のままで' in message.content:
+            with open('hadakanomamade.txt') as hadakanomamade:
+                kasi_hadakanomamade = hadakanomamade.read()
+            await message.channel.send(kasi_hadakanomamade)
+        if 'はぐれ狼' in message.content:
+            withy open('hagureookami') as hagureookami:
+                kasi_hagureookami = hagureookami.read()
+            await message.channel.send(kasi_hagureookami)
+        if 'ハイファイ・ローファイ' in message.content:
+            with open('haifairo-fai.txt') as haifairofai:
+                kasi_haifairofai = haifairofai.read()
+            await message.channel.send(kasi_haifairofai)
+        if '花泥棒' in message.content:
+            with open('hanadorobou.txt') as hanadorobou:
+                kasi_hanadorobou = hanadorobou.read()
+            await message.channel.send(kasi_hanadorobou)
+        if '花の写真' in message.content:
+            with open('hananosyasin.txt') as hananosyasin:
+                kasi_hananosyasin = hananosyasin.read()
+            await message.channel.send(kasi_hananosyasin)
+        if '花と虫' in message.content:
+            with open('hanatomusi.txt') as hanatomusi:
+                kasi_hanatomusi = hanatomusi.read()
+            await message.channel.send(kasi_hanatomusi)
+        if 'ハネモノ' in message.content:
+            with open('hanemono.txt') as hanemono:
+                kasi_hanemono = hanemono.txt
+            await message.channel.send(kasi_hanemono)
+        if 'ハニーハニー' in message.content:
+            with open('hani-hani-.txt') as hanihani:
+                kasi_hanihani = hanihani.read()
+            await message.channel.send(kasi_hanihani)
+        if '遥か' in message.content:
+            with open('haruka.txt') as haruka:
+                kasi_haruka = haruka.read()
+            await message.channel.send(kasi_haruka)
+        if '春夏ロケット' in message.content:
+            with open('harunaturoketto.txt') as harunaturoketto:
+                kasi_harunaturoketto = harunaturoketto.read()
+            await message.channel.send(kasi_harunaturoketto)
+        if '春の歌' in message.content:
+            with open('harunouta.txt') as harunouta:
+                kasi_harunouta = harunouta.read()
+            await message.channel.send(kasi_harunouta)
+        if 'ハチミツ' in message.content:
+            with open('hatimitu.txt') as hatimitu:
+                kasi_hatimitu = hatimitu.read()
+            await message.channel.send(kasi_hatimitu)
+        if 'ハチの針' in message.content:
+            with open('hatinohari.txt') as hatinohari:
+                kasi_hatinohari = hatinohari.read()
+            await message.channel.send(kasi_hatinohari)
+        if '初恋クレイジー' in message.content:
+            with open('hatukoikureizi-.txt') as hatukoikureizi:
+                kasi_hatukoikureizi = hatukoikureizi.read()
+            await message.channel.send(kasi_hatukoikureizi)
+        if '初恋に捧ぐ' in message.content:
+            with open('hatukoinisasagu.txt') as hatukoinisasagu:
+                kasi_hatukoinisasagu = hatukoinisasagu.read()
+            await message.channel.send(kasi_hatukoinisasagu)
+        if 'ハヤテ' in message.content:
+            with open('hayate.txt') as hayate:
+                kasi_hayate = hayate.read()
+            await message.channel.send(kasi_hayate)
+        if 'ヘビーメロウ' in message.content:
+            with open('hebi-merou.txt') as hebimerou:
+                kasi_hebimerou = hebimerou.read()
+            await message.channel.send(kasi_hebimerou)
+        if 'ヘチマの花' in message.content:
+            with open('hetimanohana.txt') as hetimanohana:
+                kasi_hetimanohana = hetimanohana.read()
+            await message.channel.send(kasi_hetimanohana)
+        if 'ヒバリのこっころ' in message.content:
+            with open('hibarinokokoro.txt') as hibarinokokoro:
+                kasi_hibarinokokoro = hibarinkokoro.read()
+            await message.channel.send(kasi_hibarinokokoro)
+        if 'ヒビスクス' in message.content:
+            with open('hibisukusu.txt') as hibisukusu:
+                kasi_hibisukusu = hibisukusu.read()
+            await message.channel.send(kasi_hiisukusu)
+        if 'hinatanomadoniakogarete' in message.content:
+            with open('hinatanomadoniakogarete.txt') as hinatanomadoniakogarete:
+                kasi_hinatanomadoniakogarete = hinatanomadoniakogarete.read()
+            await message.channel.send(kasi_hinatanomadoniakogarete)
+        if 'HOLIDAY' in message.content or 'holiday' in message.content:
+            with open('holiday.txt') as holiday:
+                kasi_holiday = holiday.read()
+            await message.channel.send(kasi_holiday)
+        if 'ほのほ' in message.content:
+            with open('honoho.txt') as honoho:
+                kasi_honoho = honoho.read()
+            await message.channel.send(kasi_honoho)
             
+            
+                      
+                    
             
            
                                        
