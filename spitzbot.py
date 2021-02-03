@@ -153,6 +153,56 @@ async def on_message(message):
             with open('dorufinravu.txt') as dorufinravu:
                 kasi_dorufinravu = dorufinravu.read()
             await message.channel.send(kasi_dorufinravu)
+        if 'エンドロールには早すぎる' in message.content:
+            with open('endoro-runihahayasugiru.txt') as endororunihahayasugiru:
+                kasi_endororunihahayasugiru = endororunihahayasugiru.read()
+            await message.channel.send(kasi_endororunihahayasugiru)
+        if 'えにし' in message.content:
+            with open('enisi.txt') as enisi:
+                kasi_enisi = enisi.read()
+            await message.channel.send(kasi_enisi)
+        if 'エスカルゴ' in message.content:
+            with open('esukarugo.txt') as esukarugo:
+                kasi_esukarugo = esukarugo.read()
+            await message.channel.send(kasi_esukarugo)
+        if 'エスペランサ' in message.content:
+            with open('esuperansa.txt') as esuperansa:
+                kasi_esuperansa = esuperansa.read()
+            await message.channel.send(kasi_esuperansa)
+        if 'エトランゼ' in message.content:
+            with open('etoranze.txt') as etoranze:
+                kasi_etoranze = etoranze.read()
+            await message.channel.send(kasi_etoranze)
+        if 'フェイクファー' in message.content:
+            with open('feikufa-.txt') as feikufa:
+                kasi_feikufa = feikufa.read()
+            await message.channel.send(kasi_feikufa)
+        if 'ガーベラ' in message.content:
+            with open('ga-bera.txt') as gabera:
+                kasi_gabera = gabera.read()
+            await message.channel.send(kasi_gabera)
+        if 'ガラクタ' in message.content:
+            with open('garakuta.txt') as garakuta:
+                kasi_garakuta = garakuta.read()
+            await message.channel.send(kasi_garakuta)
+        if '五千光年の夢' in message.content:
+            with open('gosennkounennnoyume.txt') as gosennkounennnoyume:
+                kasi_gosennkounennnoyume = gosennkounennnoyume.read()
+            await message.channel.send(kasi_gosennkounennnoyume)
+        if '群青' in message.content:
+            with open('gunzyou.txt') as gunzyou:
+                kasi_gunzyou = gunzyou.read()
+            await message.channel.send(kasi_gunzyou)
+        if 'グラスホッパー' in message.content:
+            with open('gurasuhoppa-.txt') as gurasuhoppa:
+                kasi_gurasuhoppa = gurasuhoppa.read()
+            await message.channel.send(kasi_gurasuhoppa)
+        if 'グリーン' in message.content:
+            with open('guri-n.txt') as gurin:
+                kasi_gurin = gurin.read()
+            await message.channel.send(kasi_gurin)
+            
+            
            
                                        
                                                     
