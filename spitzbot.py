@@ -210,7 +210,7 @@ async def on_message(message):
                 kasi_hadakanomamade = hadakanomamade.read()
             await message.channel.send(kasi_hadakanomamade)
         if 'はぐれ狼' in message.content:
-            withy open('hagureookami') as hagureookami:
+            with open('hagureookami') as hagureookami:
                 kasi_hagureookami = hagureookami.read()
             await message.channel.send(kasi_hagureookami)
         if 'ハイファイ・ローファイ' in message.content:
