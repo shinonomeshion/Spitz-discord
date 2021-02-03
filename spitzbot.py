@@ -342,7 +342,7 @@ async def on_message(message):
                 kasi_iroha = iroha.txt
             await message.channel.send(kasi_iroha)
         if '楓' in message.content:
-            with open('kaede') as kaede:
+            with open('kaede.txt') as kaede:
                 kasi_kaede = kaede.read()
             await message.channel.send(kasi_kaede)
         if '快速' in message.content:
