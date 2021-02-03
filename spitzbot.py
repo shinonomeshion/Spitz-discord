@@ -29,6 +29,10 @@ async def on_message(message):
             with open('8823.txt') as hayabusa:
                 kasi_8823 = hayabusa.read()
             await message.channel.send(kasi_8823)
+        if '虹を越えて' in message.content:
+            with open('NIZIWOKOETE.txt') as niziwokoete:
+                kasi_niziwokoete = niziwokoete.read()
+            await message.channel.send(kasi_niziwokoete)
             
 
 
