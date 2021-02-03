@@ -231,7 +231,7 @@ async def on_message(message):
             await message.channel.send(kasi_hanatomusi)
         if 'ハネモノ' in message.content:
             with open('hanemono.txt') as hanemono:
-                kasi_hanemono = hanemono.txt
+                kasi_hanemono = hanemono.read()
             await message.channel.send(kasi_hanemono)
         if 'ハニーハニー' in message.content:
             with open('hani-hani-.txt') as hanihani:
