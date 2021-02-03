@@ -33,6 +33,18 @@ async def on_message(message):
             with open('NIZIWOKOETE.txt') as niziwokoete:
                 kasi_niziwokoete = niziwokoete.read()
             await message.channel.send(kasi_niziwokoete)
+        if '会いに行くよ' in message.content:
+            with open('ainiikuyo.txt') as ainiikuyo:
+                kasi_ainiikuyo = ainiikuyo.read()
+            await message.channel.send(kasi_ainiikuyo)
+        if '愛のことば' in message.content:
+            with open('ainokotoba.txt') as ainokotoba:
+                kasi_ainokotoba = ainokotoba.read()
+            await message.channel.send(kasi_ainokotoba)
+        if 'アカネ' in message.content:
+            with open('akane.txt') as akane:
+                kasi_akane = akane.read()
+            await message.channel.send(kasi_akane)
             
 
 
