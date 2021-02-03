@@ -41,6 +41,8 @@ async def on_message(message):
             with open('ainokotoba.txt') as ainokotoba:
                 kasi_ainokotoba = ainokotoba.read()
             await message.channel.send(kasi_ainokotoba)
+        if '愛のしるし' in message.content:
+            with open
         if 'アカネ' in message.content:
             with open('akane.txt') as akane:
                 kasi_akane = akane.read()
@@ -56,7 +58,7 @@ async def on_message(message):
         if '悪役' in message.content:
             with open('akuyaku.txt') as akuyaku:
                 kasi_akuyaku = akuyaku.read()
-            await message.channel.send(kasi_akasatana)
+            await message.channel.send(kasi_akuyaku)
         if '甘い手' in message.content:
             with open('amaite.txt') as amaite:
                 kasi_amaite = amaite.read()
@@ -79,7 +81,7 @@ async def on_message(message):
             await message.channel.send(kasi_arigatosan)
         if 'ありふれた人生' in message.content:
             with open('arihuretazinsei.txt') as arihuretazinsei:
-                kasi_arihuretazinsei - arihuretazinsei.read()
+                kasi_arihuretazinsei = arihuretazinsei.read()
             await message.channel.send(kasi_arihuretazinsei)
         if '歩き出せ、クローバー' in message.content:
             with open('arukidasekuro-ba-.txt') as arukidasekuroba:
@@ -93,6 +95,56 @@ async def on_message(message):
             with open('azisaidoori.txt') as azisaidoori:
                 kasi_azisaidoori = azisaidoori.read()
             await message.channel.send(kasi_azisaidoori)
+        if 'ババロア' in message.content:
+            with open('babaroa.txt') as babaroa:
+                kasi_babaroa = babaroa.read()
+            await message.channel.send(kasi_babaroa)
+        if 'バニーガール' in message.content:
+            with open('bani-ga-ru.txt') as banigaru:
+                kasi_banigaru = banigaru.read()
+            await message.channel.send(kasi_banigaru)
+        if 'ベビーフェイス' in message.content:
+            with open('bebi-feisu') as bebifeisu:
+                kasi_bebifeisu = bebifeisu.read()
+            await message.channel.send(kasi_bebifeisu)
+        if 'ビー玉' in message.content:
+            with open('bi-dama.txt') as bidama:
+                kasi_bidama = bidama.read()
+            await message.channel.send(kasi_bidama)
+        if 'ビギナー' in message.content:
+            with open('bigina-.txt') as bigina:
+                kasi_bigina = bigina.read()
+            await message.channel.send(kasi_bigina)
+        if '僕はきっと旅に出る' in message.content:
+            with open('bokuhakittotabinideru.txt') as bokuhakittotabinideru:
+                kasi_bokuhakittotabinideru = bokuhakittotabinideru.read()
+            await message.channel.send(kasi_bokuhakittotabinideru)
+        if '僕はジェット' in message.content:
+            with open('bokuhazyetto.txt') as bokuhazyetto:
+                kasi_bokuzyatto = bokuhazyetto.read()
+            await message.channel.send(kasi_bokuhazyetto)
+        if '僕のギター' in message.content:
+            with open('bokunogita-.txt') as bokunogita:
+                kasi_bokunogita = bokunogita.read()
+            await message.channel.send(kasi_bokunogita)
+        if '僕の天使マリ' in message.content:
+            with open('bokunotensimari.txt') as bokunotensimari:
+                kasi_bokunotensimari = bokunotensimari.read()
+            await message.channel.send(kasi_bokunotensimari)
+        if 'ブービー' in message.content:
+            with open('bu-bi-.txt') as bubi:
+                kasi_bubi = bubi.read()
+            await message.channel.send(kasi_bubi)
+        if 'ブランケット' in message.content:
+            with open('buranketto.txt') as buranketto:
+                kasi_buranketto = buranketto.read()
+            await message.channle.send(kasi_buranketto)
+        if 'ブチ' in message.content:
+            with open('buti.txt') as buti:
+                kasi_buti = buti.txt
+            await message.channel.send(kasi_buti)
+           
+                                       
                                                     
             
 client.run(token)
