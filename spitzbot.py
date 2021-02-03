@@ -333,7 +333,7 @@ async def on_message(message):
             with open('inakanoseikatu.txt') as inakanoseikatu:
                 kasi_inakanoseikatu = inakanoseikatu.read()
             await message.channel.send(kasi_inakanoseikatu)
-        if 'インディゴ地平線' in messege.content:
+        if 'インディゴ地平線' in message.content:
             with open('indexigotiheisne.txt') as indexigotiheisen:
                 kasi_indexigotiheisen = indexigotiheisen.read()
             await message.channel.send(kasi_indexigotiheisen)
