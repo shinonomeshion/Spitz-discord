@@ -809,6 +809,106 @@ async def on_message(message):
             with open('syurahu.txt') as syurahu:
                 kasi_syurahu = syurahu.read()
             await message.channel.send(kasi_syurahu)
+        if '旅人' in message.content:
+            with open('tabibito.txt') as tabibito:
+                kasi_tabibito = tabibito.read()
+            await message.channel.send(kasi_tabibito)
+        if '旅の途中' in message.content:
+            with open('tabinototyuu.txt') as tabinototyuu:
+                kasi_tabinototyuu = tabinototyuu.read()
+            await message.channel.send(kasi_tabinototyuu)
+        if 'ただ春を待つ' in message.content:
+            with open('tadaharuwomatu.txt') as harumatu:
+                kasi_harumatu = harumatu.read()
+            await message.channel.send(kasi_harumatu)
+        if 'タイムトラベラー' in message.content:
+            with open('taimutorabera-.txt') as timetraveler:
+                kasi_timetraveler = timetraveler.read()
+            await message.channel.send(kasi_timetraveler)
+        if 'タイム・トラベル' in message.content:
+            with open('taimutoraberu.txt') as timetravel:
+                kasi_timetravel = timetravel.read()
+            await message.channel.send(kasi_timetravel)
+        if '多摩川' in message.content:
+            with open('tamagawa.txt') as tamagawa:
+                kasi_tamagawa = tamagawa.read()
+            await message.channel.send(kasi_tamagawa)
+        if 'たまご' in message.content:
+            with open('tamago.txt') as tamago:
+                kasi_tamago = tamago.read()
+            await message.channel.send(kasi_tamago)
+        if '探検隊' in message.content:
+            with open('tankentai.txt') as tankentai:
+                kasi_tankentai = tankentai.read()
+            await message.channel.send(kasi_tankentai)
+        if 'タンポポ' in message.content:
+            with open('tanpopo.txt') as tanpopo:
+                kasi_tanpopo = tanpopo.read()
+            await message.channel.send(kasi_tanpopo)
+        if 'テイタム・オニール' in message.content:
+            with open('teitamuoni-ru.txt') as teitamu:
+                kasi_teitamu = teitamu.read()
+            await message.channel.send(kasi_teitamu)
+        if 'テクテク' in message.content:
+            with open('tekuteku.txt') as tekuteku:
+                kasi_tekuteku = tekuteku.read()
+            await message.channel.send(kasi_tekuteku)
+        if '点と点' in message.content:
+            with open('tentoten.txt') as tentoten:
+                kasi_tentoten = tentoten.read()
+            await message.channel.send(kasi_tentoten)
+        if 'テレビ' in message.content:
+            with open('terebi.txt') as tv:
+                kasi_tv = tv.read()
+            await message.channel.send(kasi_tv)
+        if '小さな生き物' in message.content:
+            with open('tiisanaikimono.txt') as tiisanaikimono:
+                kasi_tiisanaikimono = tiisanaikimono
+            await message.channel.send(kasi_tiisanaikimono)
+        if 'トビウオ' in message.content:
+            with open('tobiuo.txt') as tobiuo:
+                kasi_tobiuo = tobiuo.read()
+            await message.channel.send(kasi_tobiuo)
+        if 'トゲトゲの木' in message.content:
+            with open('togetogenoki.txt') as togetoge:
+                kasi_togetoge = togetoge.read()
+            await message.channel.send(kasi_togetoge)
+        if 'トンビ飛べなかった' in message.content:
+            with open('tonbitobenakatta.txt') as tobenakatta:
+                kasi_tobenakatta = tobenakatta.read()
+            await message.chanel.send(kasi_tobenakatta)
+        if "トンガリ'95" in message.content:
+            with open('tongari95.txt') as tongari:
+                kasi_tongari = tongari.read()
+            await message.channel.send(kasi_tongari)
+        if '遠吠えシャッフル' in message.content:
+            with open('tooboesyahhuru.txt') as tooboe:
+                kasi_tooboe = tooboe.read()
+            await message.channel.send(kasi_tooboe)
+        if '鳥になって' in message.content:
+            with open('torininatte.txt') as torininatte:
+                kasi_torininatte = torininatte.read()
+            await message.channel.send(kasi_torininatte)
+        if 'TRABANT' in message.content:
+            with open('trabant.txt') as trabant:
+                kasi_trabant = trabant.read()
+            await message.channel.send(kasi_trabant)
+        if 'つぐみ' in message.content:
+            with open('tugumi.txt') as tugumi:
+                kasi_tugumi = tugumi.read()
+            await message.channel.send(kasi_tugumi)
+        if '月に帰る' in message.content:
+            with open('tukinikaeru.txt') as tukinikaeru:
+                kasi_tukinikaeru = tukinikaeru.read()
+            await message.channel.send(kasi_tukinikaeru)
+        if '冷たい頬' in message.content:
+            with open('tumetaihoho.txt') as tumetai:
+                kasi_tumetai = tumetai.read()
+            await message.channel.send(kasi_tumetai)
+        if 'チェリー' in message.content:
+            with open('tyeri-.txt') as cherry:
+                kasi_cherry = cherry.read()
+            await message.channel.send(kasi_cherry)
         
         
             
