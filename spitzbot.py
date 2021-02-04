@@ -1009,5 +1009,65 @@ async def on_message(message):
             with open('zyute-mu.txt') as zyutemu:
                 kasi_zyutemu = zyutemu.read()
             await message.channel.send(kasi_zyutemu)
-         
+        if '座敷犬のうた' in message.content:
+            with open('zasikiinunouta.txt') as zasiki:
+                kasi_zasiki = zasiki.read()
+            await message.channel.send(kasi_zasiki)
+        if 'ハッピー・デイ' in message.content:
+            with open('happyday.txt') as happy:
+                kasi_happy = happy.read()
+            await message.channel.send(kasi_happy)
+        if 'アナキスト' in message.content:
+            with open('anakisuto.txt') as anakisuto:
+                kasi_anakisuto = anakisuto.read()
+            await message.channel.send(kasi_anakisuto)
+        if '泥だらけ' in message.content:
+            with open('dorodarake.txt') as dorodarake:
+                kasi_dorodarake = dorodarake.read()
+            await message.channel.send(kasi_dorodarake)
+        if 'UFOの見える丘' in message.content:
+            with open('ufo.txt') as ufo:
+                kasi_ufo = ufo.read()
+            await message.channel.send(kasi_ufo)
+        if '晴れの日はプカプカプー' in message.content:
+            with open('pukapukapu-.txt') as pukapuka:
+                kasi_pukapuka = pukapuka.read()
+            await message.channel.send(kasi_pukapuka)
+        if 'クモ少年が走る' in message.content:
+            with open('kumosyounen.txt') as kumosyounen:
+                kasi_kumosyounen = kumosyounen.read()
+            await message.channel.send(kasi_kumosyounen)
+        if 'ファズギター' in message.content:
+            with open('fazugita-.txt') as fazu:
+                kasi_fazu = fazu.read()
+            await message.channel.send(kasi_fazu)
+        if '353号線のうた' in message.content:
+            with open('353.txt') as three:
+                kasi_three = three.read()
+            await message.channel.send(kasi_three)
+        if '死にもの狂いのカゲロウを見ていた' in message.content:
+            with open('kagerou.txt') as kagerou:
+                kasi_kagerou = kagerou.read()
+            await message.channel.send(kasi_kagerou)
+        if '勇気' in message.content:
+            with open('yuuki.txt') as yuuki:
+                kasi_yuuki = yuuki.read()
+            await message.channel.send(kasi_yuuki)
+        if 'シェリーにくちづけ' in message.content:
+            with open('syeri-.txt') as syeri:
+                kasi_syeri = syeri.read()
+            await message.channel.send(kasi_syeri)
+        if '午前10時のバカ太郎' in message.content:
+            with open('bakatarou.txt') as bakatarou:
+                kasi_bakatarou = bakatarou.read()
+            await message.channel.send(kasi_bakatarou)
+        if 'ウララちゃんの大きな木' in message.content:
+            with open('uraratyan.txt') as uraratyan:
+                kasi_uraratyan = uraratyan.read()
+            await message.channel.send(kasi_uraratyan)
+        if '惑星S・E・Xのテーマ' in message.content:
+            with open('sex.txt') as sex:
+                kasi_sex = sex.read()
+            await message.channel.send(kasi_sex)
+            
 client.run(token)
