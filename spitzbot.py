@@ -728,7 +728,7 @@ async def on_message(message):
         if '新月' in message.content:
             with open('singetu.txt') as singetu:
                 kasi_singetu = singetu.read()
-            await message.channel.send(kasi_sengetu)]
+            await message.channel.send(kasi_singetu)
         if '死神の岬へ' in message.content:
             with open('sinigaminomisakihe.txt') as sinigamisaki:
                 kasi_sinigamisaki = sinigamisaki.read()
