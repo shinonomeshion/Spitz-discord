@@ -909,9 +909,105 @@ async def on_message(message):
             with open('tyeri-.txt') as cherry:
                 kasi_cherry = cherry.read()
             await message.channel.send(kasi_cherry)
-        
-        
-            
-                
-    
+        if 'うめぼし' in message.content:
+            with open('umebosi.txt') as umebosi:
+                kasi_umebosi = umebosi.read()
+            await message.channel.send(kasi_umebosi)
+        if '海ねこ' in message.content:
+            with open('umineko.txt') as umineko:
+                kasi_umineko = umineko.read()
+            await message.channel.send(kasi_umineko)
+        if '海とピンク' in message.content:
+            with open('umitopink.txt') as pink:
+                kasi_pink = pink.read()
+            await message.channel.send(kasi_pink)
+        if '海を見に行こう' in message.content:
+            with open('umiwominiikou') as miniikou:
+                kasi_miniikou = miniikou.read()
+            await message.channel.send(kasi_miniikou)
+        if '運命の人' in message.content:
+            with open('unmeinohito.txt') as unmei:
+                kasi_unmei = unmei.read()
+            await message.channel.send(kasi_unmei)
+        if 'ウサギのバイク' in message.content:
+            with open('usaginobaiku.txt') as rabitto:
+                kasi_rabitto = rabitto.read()
+            await message.channel.send(kasi_rabitto)
+        if '歌ウサギ' in message.content:
+            with open('utausagi.txt') as utausagi:
+                kasi_utausagi = utausagi.read()
+            await message.channel.send(kasi_utausagi)
+        if '若葉' in message.content:
+            with open('wakaba.txt') as wakaba:
+                kasi_wakaba = wakaba.read()
+            await message.channel.send(kasi_wakaba)
+        if 'ワタリ' in message.content:
+            with open('watari.txt') as watari:
+                kasi_watari = watari.read()
+            await message.channel.send(kasi_watari)
+        if 'ウィリー' in message.content:
+            with open('wiri-.txt') as wiri:
+                kasi_wiri = wiri.read()
+            await message.channel.send(kasi_wiri)
+        if 'Y' in message.content:
+            with open('y.txt') as y:
+                kasi_y = y.read()
+            await message.channel.send(kasi_y)
+        if 'ヤマブキ' in message.content:
+            with open('yamabuki.txt') as yamabuki:
+                kasi_yamabuki = yamabuki.read()
+            await message.channel.send(kasi_yamabuki)
+        if '優しいあの子' in message.content:
+            with open('yasasiianoko.txt') as yasasiianoko:
+                kasi_yasasiianoko = yasasiianoko.read()
+            await message.channel.send(kasi_yasasiianoko)
+        if '優しくなりたいな' in message.content:
+            with open('yasasikunaritaina.txt') as yasasikunaritaina:
+                kasi_yasasikunaritaina = yasasikunaritaina.read()
+            await message.channel.send(kasi_yasasikunaritaina)
+        if '野生のポルカ' in message.content:
+            with open('yaseinoporuka.txt') as yasei:
+                kasi_yasei = yasei.read()
+            await message.channel.send(kasi_yasei)
+        if '野生のチューリップ' in message.content:
+            with open('yaseinotyu-rippu.txt') as tyurippu:
+                kasi_tyurippu = tyurippu.read()
+            await message.channel.send(kasi_tyurippu)
+        if 'YM71D' in message.content:
+            with open('ym71d.txt') as ym71d:
+                kasi_ym71d = ym71d.read()
+            await message.channel.send(kasi_ym71d)
+        if '夜を駆ける' in message.content:
+            with open('yorunikakeru.txt') as yoasobi:
+                kasi_yoasobi = yoasobi.read()
+            await message.channel.send(kasi_yoasobi)
+        if '雪風' in message.content:
+            with open('yukikaze.txt') as yukikaze:
+                kasi_yukikaze = yukikaze.read()
+            await message.channel.send(kasi_yukikaze)
+        if '夢追い虫' in message.content:
+            with open('yumeoimusi.txt') as earlyversion:
+                kasi_earlyversion = earlyversion.read()
+            await message.channel.send(kasi_earlyversion)
+        if '夢じゃない' in message.content:
+            with open('yumezyanai.txt') as yumezyanai:
+                kasi_yumezyanai = yumezyanai.read()
+            await message.channel.send(kasi_yumezyanai)
+        if '夕陽が笑う、君も笑う' in message.content:
+            with open('yuuigawaraukimimowarau.txt') as yuuhikimi:
+                kasi_yuuhikimi = yuuhikimi.read()
+            await message.channel.send(kasi_yuuhikimi)
+        if '夕焼け' in message.content:
+            with open('yuuyake.txt') as yuuyake:
+                kasi_yuuyake = yuuyake.read()
+            await message.channel.send(kasi_yuuyake)
+        if '自転車' in message.content:
+            with open('zitensya.txt') as zitensya:
+                kasi_zitensya = zitensya.read()
+            await message.channel.send(kasi_zitensya)
+        if 'ジュテーム?' in message.content:
+            with open('zyute-mu.txt') as zyutemu:
+                kasi_zyutemu = zyutemu.read()
+            await message.channel.send(kasi_zyutemu)
+         
 client.run(token)
