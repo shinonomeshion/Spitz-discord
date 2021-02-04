@@ -417,5 +417,107 @@ async def on_message(message):
             with open('kuroitubasa.txt') as kuroitubasa:
                 kasi_kuroitubasa = kuroitubasa.read()
             await message.channel.send(kasi_kuroitubasa)
-
+        if 'マーメイド' in message.content:
+            with open('ma-meido.txt') as mameido:
+                kasi_memeido = mameido.read()
+            await message.channel.send(kasi_mameido)
+        if '幻のドラゴン' in message.content:
+            with open('maborosinodoragon.txt') as maborosinodoragon:
+                kasi_maborosinodoragon = maborosinodoragon.read()
+            await message.channel.send(kasi_maborosinodoragon)
+        if 'まがった僕のしっぽ' in message.content:
+            with open('magattabokunosippo.txt') as magattabokunosippo:
+                kasi_magattabokunosippo = magattabokunosippo.read()
+            await message.channel.send(kasi_magattabokunosippo)
+        if '魔法' in message.content:
+            with open('mahou.txt') as mahou:
+                kasi_mahou = mahou.read()
+            await message.channel.send(kasi_mahou)
+        if '魔法のコトバ' in message.content:
+            with open('mahounokotoba.txt') as mahounokotoba:
+                kasi_mahounokotoba = mahounokotoba.read()
+            await message.channel.send(kasi_mahounokotoba)
+        if 'マフラーマン' in message.content:
+            with open('mahura-man.txt') as mahuraman:
+                kasi_mahuraman = mahuraman.read()
+            await message.channel.send(kasi_mahuraman)
+        if '迷子の兵隊' in message.content:
+            with open('maigonoheitai.txt') as maigonoheitai:
+                kasi_maigonoheitai = maigonoheitai.read()
+            await message.channel.send(kasi_maigonoheitai)
+        if 'まもるさん' in message.content:
+            with open('mamorusan.txt') as mamorusan:
+                kasi_mamorusan = mamorusan.read()
+            await message.channel.send(kasi_mamorusan)
+        if '正夢' in message.content:
+            with open('masayume.txt') as masayume:
+                kasi_masayume = masayume.read()
+            await message.channel.send(kasi_masayume)
+        if '待ちあわせ' in message.content:
+            with open('matiawase.txt') as natiawase:
+                kasi_matiawase = matiawase.read()
+            await message.channel.send(kasi_matiawase)
+        if '魔女旅に出る' in message.content:
+            with open('mazyotabinideru.txt') as mazyotabinideru:
+                kasi_mazyotabinideru = mazyotabinideru.read()
+            await message.channel.send(kasi_mazyotabinideru)
+        if 'メモリーズ' in message.content:
+            with open('memori-zu.txt') as memorizu:
+                kasi_memorizu = memorizu.read()
+            await message.channel.send(kasi_memorizu)
+        if 'メモリーズ・カスタム' in message.content:
+            with open('memori-zukasutamu.txt') as memorizukasutamu:
+                kasi_memorizukasutamu = memorizukasutamu.read()
+            await message.channel.send(kasi_memorizukasutamu)
+        if 'ミーコとギター' in message.content:
+            with open('mi-kotogita-.txt') as mikotogita:
+                kasi_mikotogita = mikotogita.read()
+            await message.channel.send(kasi_mikotogita)
+        if '三日月ロック その3' in message.content:
+            with open('mikadukirokku.txt') as mikadukirokku:
+                kasi_mikadukirokku = mikadukirokku.read()
+            await message.channel.send(kasi_mikadukirokku)
+        if 'ミカンズノのテーマ' in message.content:
+            with open('mikanzunote-ma.txt') as mikanzu:
+                kasi_mikanzu = mikanzu.read()
+            await message.channel.send(kasi_mikanzu)
+        if '見っけ' in message.content:
+            with open('mikke.txt') as mikke:
+                kasi_mikke = mikke.read()
+            await message.channel.send(kasi_mikke)
+        if 'みなと' in message.content:
+            with open('minato.txt') as minato:
+                kasi_minato = minato.read()
+            await message.channel.send(kasi_minato)
+        if '未来コオロギ' in message.content:
+            with open('miraikoorogi.txt') as miraikoorogi:
+                kasi_miraikoorogi = miraikoorogi.read()
+            await message.channel.send(kasi_miraikoorogi)
+        if 'みそか' in message.content:
+            with open('misoka.txt') as misoka:
+                kasi_misoka = misoka.read()
+            await message.channel.send(kasi_misoka)
+        if '水色の街' in message.content:
+            with open('mizuironomati.txt') as mizuiro:
+                kasi_mizuiro = mizuiro.read()
+            await message.channel.send(kasi_mizuiro)
+        if '桃' in message.content:
+            with open('momo.txt') as momo:
+                kasi_momo = momo.read()
+            await message.channel.send(kasi_momo)
+        if 'モニャモニャ' in message.content:
+            with open('monyamonya.txt') as monyamonya:
+                kasi_monyamonya = monyamonya.read()
+            await message.channel.send(kasi_monyamonya)
+        if 'ムーンライト' in message.content:
+            with open('mu-nraito.txt') as munraito:
+                kasi_munraito = munraito.read()
+            await message.channel.send(kasi_munraito)
+        if '胸に咲いた黄色い花' in message.content:
+            with open('munenisaitakiiroihana.txt') as kiiroihana:
+                kasi_kiiroihana = kiiroihana.read()
+            await message.channel.send(kasi_kiiroihana)
+          
+            
+            
 client.run(token)
