@@ -721,5 +721,97 @@ async def on_message(message):
             with open('seisyunikinokorige-mu.txt') as ikinokori:
                 kasi_ikinokori = ikinokori.read()
             await message.channel.send(kasi_ikinokori)
+        if 'センチメンタル' in message.content:
+            with open('sentimentaru.txt') as sentimentaru:
+                kasi_sentimentaru = sentimentaru.read()
+            await message.channel.send(kasi_sentimentaru)
+        if '新月' in message.content:
+            with open('singetu.txt') as singetu:
+                kasi_singetu = singetu.read()
+            await message.channel.send(kasi_sengetu)]
+        if '死神の岬へ' in message.content:
+            with open('sinigaminomisakihe.txt') as sinigamisaki:
+                kasi_sinigamisaki = sinigamisaki.read()
+            await message.channel.send(kasi_sinigamisaki)
+        if '潮騒ちゃん' in message.content:
+            with open('siosaityan.txt') as siosai:
+                kasi_siosai = siosai
+            await message.channel.send(kasi_siosai)
+        if '白い炎' in message.content:
+            with open('siroihonoo.txt') as siroihonoo:
+                kasi_siroihonoo = siroihonoo.read()
+            await message.channel.send(kasi_siroihonoo)
+        if 'シロクマ' in message.content:
+            with open('sirokuma.txt') as sirokuma:
+                kasi_sirokuma = sirokuma
+            await message.channel.send(kasi_sirokuma)
+        if 'SJ' in message.content:
+            with open('sj.txt') as sj:
+                kasi_sj = sj.read()
+            await message.channel.send(kasi_sj)
+        if '孫悟空' in message.content:
+            with open('songokuu.txt') as songokuu:
+                kasi_songokuu = songokuu.read()
+            await message.channel.send(kasi_songokuu)
+        if '空も飛べるはず' in message.content:
+            with open('soramotoberuhazu.txt') as toberuhazu:
+                kasi_toberuhazu = toberuhazu.read()
+            await message.channel.send(kasi_toberuhaazu)
+        if 'めざめ' in message.content:
+            with open('mezame.txt') as mezame:
+                kasi_mezame = mezame.read()
+            await message.channel.send(kasi_mazeme)
+        if 'スーパーノヴァ' in message.content:
+            with open('su-pa-nova') as supernova:
+                kasi_supernova = supernova.read()
+            await message.channel.send(kasi_supernova)
+        if 'SUGINAMI MELODY' in message.content:
+            with open('suginamimelody.txt') as suginami:
+                kasi_suginami = suginami.read()
+            await message.channel.send(kasi_suginami)
+        if 'スカーレット' in message.content:
+            with open('suka-retto.txt') as sukaretto:
+                kasi_sukaretto = sukaretto.read()
+            await message.channel.send(kasi_sukaretto)
+        if 'スパイダー' in message.content:
+            with open('supaida-.txt') as spider:
+                kasi_spider = spider.read()
+            await message.channel.send(kasi_spider)
+        if 'スピカ' in message.content:
+            with open('supika.txt') as supika:
+                kasi_supika = supika.read()
+            await message.channel.send(kasi_supika)
+        if 'スターゲイザー' in message.content:
+            with open('suta-geiza-.txt') as stargather:
+                kasi_stargather = stargather.read()
+            await message.channel.send(kasi_stargather)
+        if 'スワン' in message.content:
+            with open('suwan.txt') as swan:
+                kasi_swan = swan.read()
+            await message.channel.send(kasi_swan)
+        if '鈴虫を飼う' in message.content:
+            with open('suzumusiwokau.txt') as suzumusi:
+                kasi_suzumusi = suzumusi.read()
+            await message.channel.send(kasi_suzumusi)
+        if 'シャララ' in message.content:
+            with open('syarara.txt') as syarara:
+                kasi_syarara = syarara.read()
+            await message.channel.send(kasi_syarara)
+        if '謝々!' in message.content:
+            with open('syesye.txt') as syesye:
+                kasi_syesye = syesye.read()
+            await message.channel.send(kasi_syesye)
+        if '初夏の日' in message.content:
+            with open('syokanohi.txt') as syokanohi:
+                kasi_syokanohi = syokanohi.read()
+            await message.channel.send(kasi_syokanohi)
+        if 'シュラフ' in message.content:
+            with open('syurahu.txt') as syurahu:
+                kasi_syurahu = syurahu.read()
+            await message.channel.send(kasi_syurahu)
+        
+        
+            
+                
     
 client.run(token)
