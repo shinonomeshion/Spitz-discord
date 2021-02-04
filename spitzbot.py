@@ -1069,5 +1069,9 @@ async def on_message(message):
             with open('sex.txt') as sex:
                 kasi_sex = sex.read()
             await message.channel.send(kasi_sex)
+        if 'ワンツー!ワンツー!' in message.content:
+　　　　　　　with open('onetwo.txt') as onetwo:
+                kasi_onetwo = onetwo.read()
+           await message.channel.send(kasi_onetwo)
             
 client.run(token)
