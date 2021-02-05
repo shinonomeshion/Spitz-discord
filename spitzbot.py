@@ -1075,7 +1075,7 @@ async def on_message(message):
             await message.channel.send(kasi_onetwo)
         if '変身ポーズ' in message.content:
             with open('hensin.txt') as hensin:
-                kasi_hensin = hesin.read()
+                kasi_hensin = hensin.read()
             await message.channel.send(kasi_hensin)
         if '夜明け' in message.content:
             with open('yoake.txt') as yoake:
