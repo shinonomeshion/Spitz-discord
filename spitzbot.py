@@ -1069,6 +1069,26 @@ async def on_message(message):
             with open('sex.txt') as sex:
                 kasi_sex = sex.read()
             await message.channel.send(kasi_sex)
+        if 'ワンツー!ワンツー!' in message.content:
+            with open('onetwo.txt') as onetwo:
+                kasi_onetwo = onetwo.read()
+            await message.channel.send(kasi_onetwo)
+        if '変身ポーズ' in message.content:
+            with open('hensin.txt') as hensin:
+                kasi_hensin = hesin.read()
+            await message.channel.send(kasi_hensin)
+        if '夜明け' in message.content:
+            with open('yoake.txt') as yoake:
+                kasi_yoake = yoake.read()
+            await message.channel.send(kasi_yoake)
+        if 'アカネ2' in message.content:
+            with open('akane2.txt') as akane2:
+                kasi_akane2 = akane2.read()
+            await message.channel.send(kasi_akane2)
+        if 'カラス' in message.content:
+            with open('karasu.txt') as karasu:
+                kasi_karasu = karasu.read()
+            await message.channel.send(kasi_karasu)
      
             
 client.run(token)
